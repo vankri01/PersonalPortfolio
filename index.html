@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vansika Raj - Personal Webpage</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
+
+        body {
+            font-family: 'EB Garamond', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2ede1;
+            color: #333;
+            transition: background-color 0.5s ease;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 2em 0;
+            text-align: center;
+            background-image: url('https://images.fineartamerica.com/images-medium-large-5/pride-and-prejudice-i-will-not-marry-lori-ulatowski.jpg');
+            background-size: cover;
+            background-position: center;
+            animation: fadeIn 2s ease;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 0;
+            font-style: italic;
+        }
+        .container {
+            padding: 2em;
+            max-width: 800px;
+            margin: auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            animation: slideIn 1s ease;
+        }
+        .about-me {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .about-me img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 1em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        p {
+            line-height: 1.8;
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        .social-links a {
+            text-decoration: none;
+            margin-right: 1em;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .social-links a:hover {
+            color: #e74c3c;
+        }
+        .interests ul {
+            list-style-type: square;
+            margin: 0;
+            padding: 0;
+            padding-left: 20px;
+        }
+        .interests li {
+            margin: 0.5em 0;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Miss Vansika Raj (Carol)</h1>
+    <p>Engineering Student | Aspiring Writer | Pianist</p>
+</header>
+
+<div class="container">
+    <section class="section about-me">
+        <img src="https://drive.google.com/uc?id=1-1BpwwFdtG8txZUU2rYMIhV-_2W17kkZ" alt="Vansika Raj">
+        <h2>About Me</h2>
+        <p>Hello! I'm Vansika Raj, also known by my penname Carol. I am currently in the pre-final year of my engineering studies. I have a deep passion for writing, playing the piano, and management. Additionally, I have some knowledge of coding in Python, MySQL, and C++.</p>
+        <p>I have had the privilege of experiencing different cultures and lifestyles due to my father's service in the Indian Air Force, which required us to move frequently across various parts of the country.</p>
+        <p>Throughout my life, I've been fortunate to assume leadership roles in various contexts, allowing me to cultivate my skills in guiding and inspiring others, while also learning from their perspectives.</p>
+        <p>I enjoy spending time with my loved ones and exploring different cuisines, as I am a big foodie. Welcome to my personal webpage!</p>
+    </section>
+
+    <section class="section interests">
+        <h2>Interests</h2>
+        <ul>
+            <li>Writing</li>
+            <li>Playing the Piano</li>
+            <li>Management</li>
+            <li>Coding (Python, MySQL, C++)</li>
+            <li>Spending time with loved ones</li>
+            <li>Exploring different cuisines</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>Connect with Me</h2>
+        <div class="social-links">
+            <a href="https://www.instagram.com/_vankri/" target="_blank" style="color: #ff99cc;">Instagram</a>
+            <a href="https://www.linkedin.com/in/vansika-raj-5650961a8/" target="_blank" style="color: #5d8aa8;">LinkedIn</a>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
